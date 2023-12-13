@@ -59,6 +59,7 @@ button,
 textarea,
 select {
   font: inherit;
+  align-content: right;
 }
 /*
 8. Avoid text overflows
@@ -83,4 +84,7 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+
 
