@@ -76,6 +76,8 @@ body {
   font-size: 18px;
   font-weight: 500;
   transition: 200ms transform;
+
+  
   
   
   .logo-container { 
@@ -87,14 +89,17 @@ body {
     position: absolute;
     top: 0;
     right: 0;
+    align-items: right;
   }
 
   .header{
     font-size: xx-large;
+    text-align: center;
   }
 
   h1{
     font-size: 54px;
+
   }
 
   main {
@@ -105,4 +110,19 @@ body {
     align-items: center;
   }
   
-  
+
+  }
+#mySkills{
+  width: 450px;
+  display:flex;
+  margin-top: 40px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+
+.about{
+  text-align: right;
+}
+
+}

@@ -14,7 +14,7 @@
 2. Remove default margin
 */
 * {
-  margin: 0;
+  margin: 3px;
 }
 /*
 3. Allow percentage-based heights in the application
@@ -42,6 +42,14 @@ canvas,
 svg {
   display: block;
   max-width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border-color:#010a0b;
+  background-color: rgb(5, 5, 5);
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 200ms transform
 }
 /*
 7. Remove built-in form typography styles
@@ -63,6 +71,10 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+  font-size:x-small;
+  text-align: right;
+  margin-left: 50%;
+
 }
 /*
 9. Create a root stacking context
@@ -71,3 +83,4 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
