@@ -67,3 +67,42 @@ body {
 /*
  * ADD YOUR STYLES HERE
  */
+ button{
+  padding: 10px 20px;
+  border-radius: 10px;
+  border-color:#010a0b;
+  background-color: rgb(5, 5, 5);
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 200ms transform;
+  
+  
+  .logo-container { 
+    position: relative;
+    margin-bottom: 10px;
+    border-color: #010a0b;
+  }
+  .button-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .header{
+    font-size: xx-large;
+  }
+
+  h1{
+    font-size: 54px;
+  }
+
+  main {
+    min-height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
